@@ -1,7 +1,7 @@
 # ПРОГРЕСИВНА SMART КОЛОНКА Landing Page
 
-    Welcome to the repository for the landing page of the ПРОГРЕСИВНА SMART КОЛОНКА, an innovative Kickstarter project. 
-    This page leverages modern web technologies and a mobile-first design approach to provide an exceptional user experience.
+Welcome to the repository for the landing page of the ПРОГРЕСИВНА SMART КОЛОНКА, an innovative Kickstarter project. 
+This page leverages modern web technologies and a mobile-first design approach to provide an exceptional user experience.
 
 
 ## DEMO
