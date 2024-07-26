@@ -7,7 +7,7 @@
   padding-bottom: 180px;
   background-image: url('../../src/images/features-background.png');
   background-repeat: no-repeat;
-  background-size: 335px 174px;
+  background-size: 320px 174px;
   background-position: bottom center;
 
   & .swiper-wrapper {
@@ -139,6 +139,7 @@
 @media (min-width: 900px) {
   .second-swiper {
     background-size: 528px 302px;
+    padding-bottom: 49px;
     & .swiper-wrapper {
       display: grid;
       grid-template: 1fr 1fr /1fr 1fr;
@@ -154,6 +155,14 @@
 
     & .swiper__params {
       padding-left: 0;
+      padding-right: 0;
+      justify-content: flex-start;
+      text-align: left;
+      min-width: 100%;
+
+      &--item:nth-child(n)  {
+        margin-bottom: 10px;
+      }
     }
 
     & .swiper-buttons {

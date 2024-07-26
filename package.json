@@ -41,5 +41,8 @@
       "bem": false
     }
   },
-  "dependencies": {}
+  "dependencies": {
+    "swiper": "^11.1.8",
+    "swiper-bundle": "0.0.1-security"
+  }
 }
