@@ -34,7 +34,7 @@ function initializeSecondSwiper() {
       spaceBetween: 30,
       loop: true,
       speed: 500,
-      modules: [Navigation, Pagination],
+      modules: [Navigation, Pagination, Autoplay],
       autoplay: {
         delay: 2000,
         disableOnInteraction: false,

@@ -60,52 +60,67 @@
               <span class="header__burger-logo--inner"></span>
             </div>
             <div class="burger">
-              <div class="burger__header container">
-                <img
-                  src="./images/Vector.svg"
-                  alt="logo"
-                />
-                <div class="burger__close">
-                  <span class="burger__close--first"></span>
-                  <span class="burger__close--second"></span>
-                </div>
-              </div>
-              <div class="burger__main container">
-                <ul class="burger__list">
-                  <li class="burger__item burger-item-close">
-                    <a href="#post">НАША ІСТОРІЯ</a>
-                  </li>
-                  <li class="burger__item burger-item-close">
-                    <a href="#aboutUs">ПРО НАС</a>
-                  </li>
-                  <li class="burger__item burger-item-close">
-                    <a href="#features">ОСОБЛИВОСТІ</a>
-                  </li>
-                  <li class="burger__item burger-item-close" >
-                    <a href="#">ЗВ'ЯЗАТИСЯ</a>
-                  </li>
-                </ul>
-                <div class="burger__main--wrapper">
-                  <a href="#features" class="burger__footer--specs burger-item-close">
-                    ХАРАКТЕРИСТИКИ
-                  </a>
-                  <div class="burger__languages languages-change">
-                    <a href="index.html" class="burger__en languages-change__en">EN</a>
-                    <div
-                      class="burger__between-languages languages-change__middle"
-                    >
-                      /
-                    </div>
-                    <a href="index-Uk.html" class="burger__ua languages-change__ua active-language">UA</a>
+              <div class="burger__wrapper">
+                <div class="burger__header container">
+                  <img
+                    src="./images/Vector.svg"
+                    alt="logo"
+                  />
+                  <div class="burger__close">
+                    <span class="burger__close--first"></span>
+                    <span class="burger__close--second"></span>
                   </div>
                 </div>
-                <div class="burger__footer">
-                  <a 
-                    href="#get-In-touch" 
-                    class="burger__footer--button burger-item-close"
-                  >
-                    BUY 
-                  </a>
+                <div class="burger__main container">
+                  <ul class="burger__list">
+                    <li class="burger__item burger-item-close">
+                      <a href="#post">OUR STORY</a>
+                    </li>
+                    <li class="burger__item burger-item-close">
+                      <a href="#aboutUs">ABOUT US</a>
+                    </li>
+                    <li class="burger__item burger-item-close">
+                      <a href="#features">FEATURES</a>
+                    </li>
+                    <li class="burger__item burger-item-close">
+                      <a href="#get-In-touch">GET IN TOUCH</a>
+                    </li>
+                  </ul>
+                  <div class="burger__main--wrapper">
+                    <a
+                      href="#features"
+                      class="burger__footer--specs burger-item-close"
+                    >
+                      SPECS
+                    </a>
+                    <div class="burger__languages languages-change">
+                      <a
+                        href="index.html"
+                        class="burger__en languages-change__en active-language"
+                      >
+                        EN
+                      </a>
+                      <div
+                        class="burger__between-languages languages-change__middle"
+                      >
+                        /
+                      </div>
+                      <a
+                        href="index-Uk.html"
+                        class="burger__ua languages-change__ua"
+                      >
+                        UA
+                      </a>
+                    </div>
+                  </div>
+                  <div class="burger__footer">
+                    <a
+                      href="#get-In-touch"
+                      class="burger__footer--button burger-item-close"
+                    >
+                      BUY
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -470,21 +485,27 @@
             </a>
           </div>
           <div class="footer__logos">
-            <img
-              alt="#"
-              src="./images/logo/facebook.svg"
-              class="footer__logos--facebook"
-            />
-            <img
-              alt="#"
-              src="./images/logo/twitter.svg"
-              class="footer__logos--twiter"
-            />
-            <img
-              alt="#"
-              src="./images/logo/instagram.svg"
-              class="footer__logos--instagram"
-            />
+            <a href="https://www.facebook.com/?locale=uk_UA">
+              <img
+                alt="logo"
+                src="./images/logo/facebook.svg"
+                class="footer__logos--facebook"
+              />
+            </a>
+            <a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoicnUiLCJteCI6IjIifQ%3D%3D%22%7D">
+              <img
+                alt="logo"
+                src="./images/logo/twitter.svg"
+                class="footer__logos--twiter"
+              />
+            </a>
+            <a href="https://www.instagram.com/">
+              <img
+                alt="logo"
+                src="./images/logo/instagram.svg"
+                class="footer__logos--instagram"
+              />
+            </a>
           </div>
           <div class="footer__rights">
             © 2019 Всі права захищені. Умови використання та політика конфіденційності 
@@ -492,7 +513,7 @@
         </div>
       </footer>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="scripts/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" type="module"></script>
+    <script src="scripts/main.js" type="module"></script>
   </body>
 </html>
