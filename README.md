@@ -21,6 +21,8 @@ Check out the live demo of the landing page [here](https://your-live-demo-link.c
 
 ## Installation
 
+node version = node 14.21.3
+
 To get started with this project, clone the repository and install the necessary dependencies.
 
 1. **Clone the repository:**
