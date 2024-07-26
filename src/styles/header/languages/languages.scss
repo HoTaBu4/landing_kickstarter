@@ -1,0 +1,17 @@
+.languages-change {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  color: #bdbdbd;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+
+  &__middle {
+    color: #333;
+  }
+}
+
+.active-language {
+  color: #333;
+}
