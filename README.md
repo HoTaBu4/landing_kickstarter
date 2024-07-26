@@ -6,7 +6,7 @@ This page leverages modern web technologies and a mobile-first design approach t
 
 ## DEMO
 
-Check out the live demo of the landing page [here](https://your-live-demo-link.com).
+Check out the live demo of the landing page [here](https://hotabu4.github.io/landing_kickstarter/).
 
 ## Technologies Used
 
