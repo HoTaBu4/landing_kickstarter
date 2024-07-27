@@ -74,6 +74,8 @@
 
     &--title {
       margin-bottom: 20px;
+
+      @include hover(transform, scale(1.1));
     }
 
     &--sub-title {
@@ -82,6 +84,8 @@
 
       @include secondary-text;
     }
+
+    
 
     &--link {
       position: relative;
@@ -105,6 +109,12 @@
       &:hover::after {
         width: 100%;
       }
+    }
+
+    &--img,&--first-tablet-img,&--second-tablet-img {
+      cursor: pointer;
+
+      @include hover(transform, scale(1.05));
     }
   }
 
@@ -135,15 +145,21 @@
 
     &--avatar {
       margin-bottom: 10px;
+      cursor: pointer;
+
+      @include hover(transform, scale(1.1));
     }
 
     &--name {
       margin-bottom: 5px;
+      
+      @include hover(transform, scale(1.1));
     }
 
     &--job {
       color: #7c7c7c;
 
+      @include hover(transform, scale(1.1));
       @include secondary-text;
     }
   }

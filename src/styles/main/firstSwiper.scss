@@ -1,4 +1,3 @@
-// @import 'swiper/swiper-bundle.css';
 
 .first-swiper {
   overflow: hidden;
@@ -15,10 +14,16 @@
 
       &--logo {
         margin-bottom: 40px;
+        cursor:pointer;
+        
+        @include hover(transform,scale(1.1))
       }
 
       &--title {
         margin-bottom: 20px;
+        cursor:pointer;
+        
+        @include hover(transform,scale(1.1))
       }
     }
   }
@@ -26,6 +31,7 @@
 
 @media (min-width: 744px) {
   .first-swiper {
+    overflow: visible;
     & .swiper-wrapper {
       display: grid;
       gap: 64px 20px;
